@@ -9,13 +9,15 @@
 
 /* layout */
 body {
-    background-color: hsl(200deg 20% 97.06%);
+    background-color: hsl(200deg 20% 97.06%)
 }
 
 .container {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
+    background-color: white;
+    padding: 20px 30px 20px 60px;
 
     /* debug */
     border: 1px solid yellow;
@@ -36,11 +38,38 @@ body {
 
 .header-top .logo-text{
     vertical-align: middle;
-    ;
+    font-size: 40px;
 
 }
 
 
 /* main */
+
+.add-task{
+    background-color: hsl(204.21deg 86.8% 61.37%);
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10%;
+    color: white;
+    
+    margin-right: 5px;
+}
+
+.add-section{
+    background-color: white;
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    text-align:center;
+    line-height: 30px;
+    border-radius: 10%;
+    color: grey;
+    
+    border: 1px solid gray;
+
+}
 
 /* footer */
