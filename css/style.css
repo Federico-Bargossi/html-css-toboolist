@@ -67,9 +67,55 @@ body {
     line-height: 30px;
     border-radius: 10%;
     color: grey;
-    
     border: 1px solid gray;
-
+    margin-bottom: 10px;
 }
 
+.divider{
+    border-color: hsl(200deg 20% 97.06%);
+}
+
+.list{
+    list-style: none;
+}
+.list li{
+    background-color: white;
+    padding: 5px 10px;
+
+}
+.list .freccia{
+    font-size: 20px ;
+}
+
+.list .title{
+    font-size: 25px;
+}
+
+.list .check{
+    background-color: white;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid hsl(165.68deg 44% 60.78%);
+    color: hsl(165.68deg 44% 60.78%);
+    border-radius: 50%;
+}
+
+.list .editorial{
+    background-color: hsl(204.21deg 86.8% 61.37%);
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 30%;
+    color: white;
+    font-size: 11px;
+}
+
+.list .text{
+    font-size: large;
+}
 /* footer */
